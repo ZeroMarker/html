@@ -1,0 +1,48 @@
+.new_floor_discount_h1 {
+    width: 1200px;
+    margin: 0 auto 5px;
+    font-size: 25px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 3px;
+    height: 50px;
+    line-height: 25px;
+}
+
+.new_floor_discount_h1 .new_floor_nav {
+    font-size: 25px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 3px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    color: #464343;
+}
+
+.new_floor_discount_p {
+    position: relative;
+    top: 19px;
+    color: #646262;
+    font-size: 18px;
+    overflow: hidden;
+    float: right;
+    letter-spacing: 2px;
+    line-height: 20px;
+    height: 20px;
+}
+
+.new_floor_discount_p .new_floor_index_more {
+    color: #585555;
+    font-size: 18px;
+    overflow: hidden;
+    float: right;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+a {
+    cursor: pointer;
+}

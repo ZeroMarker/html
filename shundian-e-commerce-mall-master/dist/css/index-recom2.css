@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.new_floor_item_product {
+  width: 1210px;
+  margin: auto;
+}
+
+.new_floor_item_product ul li {
+  width: 292.5px;
+  height: 366px;
+  background-color: #fff;
+  padding-top: 20px;
+  float: left;
+  margin: 5px;
+  position: relative;
+}
+
+.new_floor_item_product ul li:hover {
+  box-shadow: #ddd 0px 0px 10px 1px;
+}
+
+.new_floor_item_product ul li .new_floor_item_bodybanner {
+  width: 270px;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+}
+
+.new_floor_item_product ul li .new_floor_item_bodybanner img {
+  width: 226px;
+  height: 226px;
+  margin-bottom: 10px;
+}
+
+.new_floor_item_product ul li .new_floor_item_bodybanner h4 {
+  width: 90%;
+  clear: both;
+  font-size: 14px;
+  color: #313131;
+  font-weight: 400;
+  text-align: left;
+  height: 39px;
+  overflow: hidden;
+  margin: 0 auto;
+  word-break: break-all;
+}
+
+.new_floor_item_product ul li .new_floor_item_bodybanner p {
+  text-align: left;
+  font-size: 14px;
+  color: #aeaeae;
+  height: 20px;
+  overflow: hidden;
+  margin: 5px auto 11px;
+  width: 90%;
+}
+
+.new_floor_item_product ul li .price {
+  color: #fc3538;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  font-weight: 600;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.new_floor_item_product ul li .oldprice {
+  color: #999;
+  font-size: 12px;
+  float: left;
+  margin-left: 12px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.new_floor_item_product ul li a {
+  font-size: 14px;
+  color: #fff;
+  overflow: hidden;
+  clear: both;
+}
+
+.new_floor_item_product ul li a div {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 10px auto;
+  background-color: #00bbd7;
+  overflow: hidden;
+  display: none;
+}
+
+.new_floor_item_product ul li:hover a div {
+  display: block;
+}
+
+.new_floor_item_product ul li:hover .new_floor_pro_tag_box {
+  display: none;
+}
+
+.new_floor_item_product ul li:hover .new_floor_item_bodybanner h4,
+.new_floor_item_product ul li:hover .new_floor_item_bodybanner p {
+  display: none;
+}
+
+.new_floor_item_product ul li:hover .price {
+  text-align: center;
+  float: none;
+}
+
+.new_floor_item_body.tejia_p ul li:hover .price {
+  text-align: left;
+  float: left;
+}
+
+.new_floor_item_product ul li:hover .oldprice {
+  display: none;
+}

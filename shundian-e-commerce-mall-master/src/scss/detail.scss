@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 350px;
+    margin-left: 300px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.focus {
+    width: 238px;
+    height: 238px;
+    border: 1px solid #aaa;
+    background: 50% top no-repeat #fede4f;
+    opacity: .5;
+    cursor: move;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    display: none;
+}
+
+.big-img {
+    width: 540px;
+    height: 540px;
+    position: absolute;
+    left: 450px;
+    top: 0;
+    overflow: hidden;
+    display: none;
+}
+
+.big-img img {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+}
+
+.list span {
+    display: inline-block;
+    border: 2px solid #fff;
+    margin-left: 5px;
+}
+
+.list span.active {
+    border-color: #f10;
+}
+
+.list span:hover {
+    border-color: #f10;
+}
+
+.list {
+    width: 100%;
+    position: relative;
+    margin-left: -100px;
+}
+
+#img1 img {
+    width: 50px;
+    height: 50px;
+}
+
+#img2 img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+.shangpinbianhao {
+    float: left;
+    display: inline;
+    font-size: 14px;
+    color: #616161;
+    margin-top: 20px;
+}
+
+.bdshare-button-style0-16 {
+    zoom: 1;
+}
+
+.share {
+    float: left;
+    width: 145px;
+    margin-left: 25px;
+    margin-top: 19px;
+    font-size: 14px;
+    color: #616161;
+    line-height: 22px;
+}
+
+.share span {
+    float: left;
+}
+
+.bdshare-button-style0-16 a,
+.bdshare-button-style0-16 .bds_more {
+    float: left;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.share_sao {
+    width: 95px;
+    height: 40px;
+    position: relative;
+    background: url(https://sundan.com/themes/shundian/images/buy_saomiao.png) scroll center center no-repeat;
+    cursor: pointer;
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+
+.share_sao img {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+}
+
+.duibishoucang {
+    background: url(https://sundan.com/themes/shundian/images/duibishoucangshare.png) no-repeat scroll center center;
+    width: 118px;
+    height: 26px;
+    float: left;
+    margin-top: 16px;
+}
+
+.duibishoucang div {
+    float: left;
+    width: 50%;
+    height: 26px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.duibishoucang a .share_favourite {
+    font-size: 12px;
+    font-family: 宋体;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+}
+
+.img-footer {
+    width: 600px;
+}
+
+.bdsharebuttonbox {
+    width: 100px;
+}
+
+
+
+
+.goods-detail {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.goods-detail .img-box {
+    width: 350px;
+    height: 350px;
+    padding-bottom: 50px;
+}
+
+.goods-detail .img-box img {
+    width: 100%;
+    background: url(https://sundan.com/public/images/e7/e7/25/b4962fd0ada4f767999a555948d49c5ca073ee06.jpg?1627633769#h) no-repeat center;
+}
+
+.goods-detail .title {
+    width: 350px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.lazyimg {
+    margin: 0 auto;
+    padding-top: 80px;
+    width: 1000px;
+}
+
+.focus {
+    width: 238px;
+    height: 238px;
+    border: 1px solid #aaa;
+    background: 50% top no-repeat #fede4f;
+    opacity: .5;
+    cursor: move;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+
+
+.rigbox {
+    width: 453px;
+    height: 500px;
+    float: right;
+    margin-top: -398px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+
+
+.product-information .bak_prcie {
+    margin-left: 0px;
+    width: 400px;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.product-information .detail .price {
+    font-size: 20px;
+    color: #fc3637;
+    line-height: 50px;
+    float: left;
+}
+
+.product-information .price ins {
+    font-size: 32px;
+    color: #fc3637;
+    font-weight: 400;
+    line-height: 62px;
+}
+
+.product-concerns {
+    border-bottom: none;
+}
+
+.product-titles {
+    font-size: 22px;
+    color: #333;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+.product-titles h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    width: 420px;
+    max-height: 60px;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.product-titles p {
+    display: none;
+}
+
+.product-buy {
+    background-color: #fff;
+    border: none;
+    padding: 0px;
+}
+
+.product-buy .item-label {
+    text-align: left;
+    width: 4em;
+    height: 35px;
+    float: left;
+}
+
+.product-buy .item-content {
+    margin-left: 10px;
+    width: 210px;
+    float: left;
+
+}
+
+.product-buy-quantity {
+    margin-bottom: 20px;
+}
+
+.product-buy-quantity .item-content .p-store {
+    display: block;
+    float: left;
+    background-color: #fff;
+    line-height: 35px;
+}
+
+.product-buy-quantity .p-quantity {
+    width: 120px;
+    height: 35px;
+    float: left;
+}
+
+.product-buy-quantity .p-quantity a {
+    width: 33px;
+    height: 33px;
+    line-height: 28px;
+    border: 1px solid #e1e1e1;
+}
+
+.product-buy-quantity .p-quantity input {
+    width: 48px;
+    height: 33px;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    border-color: #e1e1e1;
+}
+
+.product-buy-quantity .p-quantity a {
+    font-family: normal;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.num_cart_pr {
+    line-height: 30px;
+}
+
+.item_store {
+    font-size: 12px;
+    color: #999;
+    margin-left: 12px;
+    line-height: 32px;
+}
+
+.p-textstore {
+    width: 420px;
+    padding: 10px 0px 0px 0px;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.dd #store-selector .text {
+    border: none;
+    height: 43px;
+}
+
+.dd #store-selector .text b {
+    background: url(https://sundan.com/themes/shundian/images/city.png) no-repeat scroll center center;
+    margin-top: 8px;
+}
+
+.dd #store-selector .close {
+    top: 55px;
+    left: 370px;
+    background: url(https://sundan.com/themes/shundian/images/city_close.png) no-repeat scroll center center;
+}
+
+.product-buy .product-action .xiangqing_btn {
+    width: 420px;
+    margin-top: 35px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-buy .product-action .xiangqing_btn .btn span {
+    float: left;
+    width: 137px;
+    height: 40px;
+    padding: 0px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.product-buy .product-action .xiangqing_btn .btn-major span {
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #00bad6), color-stop(100%, #00bad6));
+    background-image: -webkit-linear-gradient(#00bad6, #00bad6);
+    background-image: -moz-linear-gradient(#00bad6, #00bad6);
+    background-image: linear-gradient(#00bad6, #00bad6);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=true, gradientType=0, startColorstr='#00bad6', endColorstr='#00bad6') \9;
+    background-color: #00bad6;
+}
+
+.product-buy .product-action .xiangqing_btn .action-buynow span {
+    background-color: #ff531b;
+}
+
+.product-buy .product-action .xiangqing_btn .btn-import span {
+    background-image: none;
+    background-color: #ff531b;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=true, gradientType=0, startColorstr='#ff531b', endColorstr='#ff531b') \9
+}
+
+.product-buy .product-action .xiangqing_btn .action-notify span span {
+    background: url(https://sundan.com/themes/shundian/images/lingdang.png) scroll 24px center no-repeat;
+}
+
+.zaixiankefu {
+    width: 120px;
+    height: 42px;
+    border: 1px solid #00bad6;
+    color: #00bad6;
+    font-size: 12px;
+    background: url(https://sundan.com/themes/shundian/images/kefu.png) scroll 5px center no-repeat #fff;
+    line-height: 34px;
+    text-indent: 2em;
+    float: right;
+}
+
+.zaixiankefu:hover {
+    background: url(https://sundan.com/themes/shundian/images/kefu_hover.png)scroll 5px center no-repeat #00bad6;
+    color: #fff;
+}
+
+#list1 {
+    margin: 10px 0;
+}
+.mg-footer{
+    margin-bottom: 100px;
+}

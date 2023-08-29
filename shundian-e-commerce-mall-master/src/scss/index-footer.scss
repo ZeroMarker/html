@@ -1,0 +1,221 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.page-footer {
+    background-color: #fff;
+}
+
+.page-footer .inner-wrap {
+    width: 1225px;
+    margin: 0 auto;
+    text-align: center;
+    color: #cccccc;
+    line-height: 24px;
+    padding: 10px 0;
+    z-index: 10;
+    position: relative;
+}
+
+.inner-wrap:after {
+    content: "\0020";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+.inner-wrap .page-aside {
+    width: 200px;
+}
+
+.inner-wrap .page-article {
+    margin-left: 220px;
+}
+
+.page-footer .footer-nav a {
+    color: #cccccc;
+    margin: 0 3px;
+}
+
+.footer_four {
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.footer_four_son {
+    width: 25%;
+    float: left;
+}
+
+.footer_four_son_h3 {
+    color: #313131;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.footer_four_son_p {
+    color: #313131;
+    font-size: 14px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.footer_four_son_p img {
+    float: left;
+    margin: 10px 5px 7px 15px;
+    width: 12px;
+    height: 12px;
+}
+
+.footer_four_son_p p {
+    float: left;
+    display: inline;
+    text-align: left;
+}
+
+.footer_bottom_shundian {
+    overflow: hidden;
+    border-bottom: 1px solid #e1e1e1;
+    background: url(https://www.sundan.com/themes/shundian/images/footer_ji.png) scroll 925px center no-repeat;
+    padding: 10px 0px;
+}
+
+.footer_bottom_shundian_left {
+    width: 830px;
+    float: left;
+}
+
+.footer_bottom_shundian_four {
+    width: 23%;
+    float: left;
+    text-align: left;
+    overflow: hidden;
+    padding: 10px 0px 10px 15px;
+}
+
+.footer_bottom_shundian_h3 {
+    font-size: 14px;
+    color: #313131;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.footer_bottom_shundian_four a {
+    font-size: 12px;
+    color: #707070;
+    width: 100%;
+    clear: both;
+    line-height: 40px;
+}
+
+.footer_bottom_shundian_right {
+    width: 350px;
+    float: right;
+    text-align: left;
+    color: #313131;
+}
+
+.footer_two {
+    width: 60%;
+    text-align: left;
+}
+
+.footer_two a p {
+    width: 100px;
+    float: left;
+    line-height: 32px;
+    color: #313131;
+    font-size: 13px;
+}
+
+.footer_bottom_shundian_four a:hover {
+    color: #00bbd7;
+}
+
+.footer_two a:hover p {
+    color: #00bbd7;
+}
+
+.section-title {
+    padding: 0 20px;
+    line-height: 48px;
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.friendlink-list {
+    overflow: hidden;
+}
+
+.friendlink-list li {
+    margin-right: 10px;
+    float: left;
+    _display: inline;
+}
+
+
+
+.footer_help p {
+    color: #313131;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer_im {
+    min-width: 650px;
+    color: #313131;
+    font-size: 14px;
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer_five {
+    background: url(https://sundan.com/themes/shundian/images/footer_fg.png) no-repeat scroll center right;
+    /*width: 18%;*/
+    /*float:left;*/
+    padding-right: 1%;
+    position: relative;
+    display: inline-block;
+}
+
+.footer_five .img {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 127px;
+    height: 127px;
+    z-index: 9999;
+    display: none;
+}
+
+.nobak {
+    background: none;
+}
+
+.footer_five img {
+    float: left;
+    margin: 14px 5px 5px 20px;
+}
+
+.footer_five p {
+    float: left;
+    display: inline;
+}
+
+.footer_p_index,
+.link-item {
+    font-size: 13px;
+}

@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.category-content {
+  display: none;
+}
+
+.enroll {
+  width: 1536px;
+  height: 600px;
+  background: url(https://www.sundan.com/public/images/c8/07/f4/46f2582d90c7f3a5fc2b572df552470ca6ea24dd.jpg) no-repeat center;
+  margin: auto;
+  position: relative;
+}
+
+.signup-article {
+  width: 1120px;
+  height: 400px;
+  margin: auto;
+  position: absolute;
+  margin-left: 200px;
+}
+
+.signupin-content {
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  padding: 5px 10px;
+  top: 20%;
+  left: 55%;
+}
+
+.signupin-content p {
+  font: 20px "Microsoft Yahei";
+  margin: 5px 0;
+  color: #313131;
+  margin-left: 31px;
+}
+
+.form-item {
+  width: 300px;
+  height: 57px;
+  font-size: 116.66667%;
+  line-height: 28px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.member_loginname {
+  background: url(https://sundan.com/themes/shundian/images/login_name.png) no-repeat scroll center center #f3f3f3;
+}
+
+input {
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  background-color: -internal-light-dark(white, #3b3b3b);
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(#767676, #858585);
+  border-image: initial;
+}
+
+address,
+em,
+i {
+  font-style: normal;
+}
+
+form {
+  display: block;
+}
+
+input,
+button {
+  outline: none;
+}
+
+input,
+select,
+button,
+textarea {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+input[type=hidden i] {
+  display: none;
+  appearance: none;
+  background-color: initial;
+  cursor: default;
+  padding: initial;
+  border: initial;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 15px;
+}
+
+.signupin-content .notice-inline {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  padding: 0;
+  height: 15px;
+  line-height: 15px;
+  white-space: nowrap;
+  font-size: 12px;
+  float: left;
+  margin-top: 8px;
+}
+
+.error {
+  color: red;
+}
+
+.signupin-content .x-input {
+  width: 249px;
+  height: 38px;
+  line-height: 38px;
+  padding: 1px 4px;
+  border: 1px solid #e1e1e1;
+  font-size: 12px;
+}
+
+.form-act input {
+  padding-left: 4px;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.member_loginpassword {
+  background: url(https://sundan.com/themes/shundian/images/member-password.png) no-repeat scroll center center #f3f3f3;
+}
+
+.signup .form-act {
+  margin-left: 148px;
+  margin-left: 0;
+}
+
+.form-act {
+  display: block;
+  margin-left: 5em;
+  margin-left: 0;
+  _display: inline;
+}
+
+.signupin-content .form-item-normal {
+  overflow: hidden;
+  font-size: 116.66667%;
+}
+
+input,
+select,
+button {
+  vertical-align: middle;
+  font-family: inherit;
+}
+
+button {
+  appearance: auto;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: -internal-light-dark(#efefef, #3b3b3b);
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(#767676, #858585);
+  border-image: initial;
+}
+
+.shundian-btn,
+.shundian-btn span {
+  border: none;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  overflow: hidden;
+  background-color: #00bad6;
+  text-align: center;
+  color: #fff;
+}
+
+.signupin-content a {
+  border: 0 none;
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 10px;
+  color: #0099b0;
+  font-size: 14px;
+}
+
+.form-act label {
+  margin-left: 5px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+label {
+  cursor: default;
+}
+
+.signupin-content .x-check,
+.signupin-content .x-select {
+  height: 32px;
+}
+
+input,
+select,
+textarea {
+  border-width: 1px;
+  border-color: #ccc;
+  padding: 1px;
+}
+
+.form-item-normal .x-check {
+  margin-top: 258px;
+}
+
+.form-item-normal {
+  margin: 15px 0;
+}

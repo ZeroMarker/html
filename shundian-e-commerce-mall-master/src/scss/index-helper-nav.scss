@@ -1,0 +1,76 @@
+* {
+    text-decoration: none;
+}
+.new_floor_server_h1 {
+    width: 0px;
+    height: 35px;
+    position: relative;
+    overflow: hidden;
+}
+
+.new_floor_item_h1 .new_floor_nav {
+    font-size: 25px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 3px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    color: #464343;
+}
+
+.new_floor_server_img {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+    background: url(https://sundan.com/themes/shundian/images/new-server-title.png) no-repeat center;
+    background-size: 1200px 24px;
+}
+
+.new_floor_server_flor {
+    width: 1210px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.new_floor_server_flor .new_floor_server_flor_item {
+    width: 298.5px;
+    height: 160px;
+    background-color: #fff;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+
+.new_floor_server_flor .new_floor_server_flor_split {
+    width: 1px;
+    height: 100px;
+    background-color: #e7e6e6;
+    float: left;
+    margin-top: 30px;
+}
+
+.new_floor_server_flor .new_floor_server_flor_item img {
+    margin-top: 37px;
+    height: 50px;
+    text-align: center;
+}
+
+.new_floor_server_flor .new_floor_server_flor_item .server_flor_item_active {
+    display: none;
+}
+
+.new_floor_server_flor .new_floor_server_flor_item .server_flor_item_name {
+    font-size: 22px;
+    color: #848080;
+    text-align: center;
+    overflow: hidden;
+    word-spacing: 2px;
+    margin: 10px auto;
+}
+
+.new_floor_server_flor .new_floor_server_flor_item:hover .server_flor_item_name {
+    color: #3ba3b5;
+}

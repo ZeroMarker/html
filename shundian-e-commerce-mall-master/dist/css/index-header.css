@@ -1,0 +1,255 @@
+.header-main, .header-left {
+  margin-left: 20px;
+  width: 1000px;
+  float: left;
+  _display: inline;
+}
+
+.header-right {
+  float: right;
+  _display: inline;
+}
+
+.header-left {
+  width: 180px;
+  float: left;
+  _display: inline;
+}
+
+.header-main .banner {
+  float: right;
+  margin-top: 10px;
+}
+
+.header-main .banner a {
+  float: left;
+  font-size: 16px;
+  margin-right: 14px;
+  text-align: center;
+}
+
+.fl_ri {
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+  position: relative;
+  width: 50px;
+  text-align: center;
+  margin-left: 2px;
+}
+
+.searchbar .x-input {
+  width: 562px;
+}
+
+.searchbar {
+  margin-top: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.searchbar .x-input {
+  padding: 0;
+  height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  background: url(https://sundan.com/themes/shundian/images/search.png) scroll 9px 9px no-repeat;
+  padding-left: 40px;
+}
+
+.searchbar .x-input:focus,
+.searchbar .x-input:hover {
+  border-color: #ccc;
+}
+
+.searchbar .btn-search {
+  height: 40px;
+  overflow: hidden;
+}
+
+.searchbar .btn-search span {
+  line-height: 38px;
+  border-color: #33353d;
+  background-color: #33353d;
+}
+
+.searchbar .btn-search .icon {
+  font-size: 24px;
+  color: #eeeeee;
+}
+
+.searchbar .hots {
+  line-height: 25px;
+  color: #666666;
+}
+
+.searchbar .hots a {
+  color: #959595;
+  font-size: 12px;
+  float: left;
+}
+
+.searchbar .hots a:hover {
+  color: #00bbd7;
+}
+
+.searchbar button[type=submit] {
+  width: 127px;
+  height: 40px;
+  background-color: #00bbd7;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  margin-left: -4px;
+}
+
+.x-input {
+  width: 400px;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 40px;
+}
+
+.fg {
+  color: #666666;
+  float: left;
+  width: 20px;
+  height: 25px;
+  font-weight: 100;
+  font-family: normal;
+  background: url(https://sundan.com/themes/shundian/images/fg.png) no-repeat scroll center center;
+}
+
+.fg:last-child {
+  display: none;
+}
+
+.cart_shundian {
+  width: 40px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #e1e1e1;
+  background: url(https://sundan.com/themes/shundian/images/index_cart.png) no-repeat scroll center center;
+}
+
+.cart_num {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  font-size: 12px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 18px;
+  margin: 5px 0px;
+}
+
+.fl_left {
+  float: left;
+}
+
+.zc_shundian {
+  width: 65px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fc3538;
+  color: #fff;
+}
+
+.dl_shundian {
+  width: 65px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #e1e1e1;
+  color: #616161;
+}
+
+.uname-shundian {
+  width: 116px;
+  height: 38px;
+  line-height: 38px;
+  color: #00bad6;
+  font-size: 14px;
+  border: 1px solid #e1e1e1;
+  padding: 0 5px 0 25%;
+  background: url(myuname.png) no-repeat scroll 7px center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.search_topbar_right {
+  display: none;
+  width: 163px;
+  background-color: #fff;
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  z-index: 20;
+  border-top: 1px solid #e1e1e1;
+}
+
+.search_topbar_right ul li a {
+  color: #362e2b;
+  font-size: 14px;
+}
+
+.search_topbar_right ul li {
+  text-indent: 4em;
+  height: 41px;
+  line-height: 40px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.small-member-shundian:hover .search_topbar_right {
+  display: block;
+}
+
+.my_01 {
+  background: url(https://sundan.com/themes/shundian/images/my_01.png) scroll no-repeat 15px center;
+}
+
+.my_01:hover {
+  background-color: #f3f3f3;
+}
+
+.my_02 {
+  background: url(https://sundan.com/themes/shundian/images/my_02.png) scroll no-repeat 15px center;
+}
+
+.my_02:hover {
+  background-color: #f3f3f3;
+}
+
+.my_03 {
+  background: url(https://sundan.com/themes/shundian/images/my_03.png) scroll no-repeat 15px center;
+}
+
+.my_03:hover {
+  background-color: #f3f3f3;
+}
+
+.my_04 {
+  background: url(https://sundan.com/themes/shundian/images/my_04.png) scroll no-repeat 15px center;
+}
+
+.my_04:hover {
+  background-color: #f3f3f3;
+}
+
+.my_05 {
+  background: url(https://sundan.com/themes/shundian/images/my_05.png) scroll no-repeat 15px center;
+}
+
+.my_05:hover {
+  background-color: #f3f3f3;
+}
+
+.my_06 {
+  background: url(https://sundan.com/themes/shundian/images/my_06.png) scroll no-repeat 15px center;
+}
+
+.my_06:hover {
+  background-color: #f3f3f3;
+}

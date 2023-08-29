@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/shopcart.css">
+    <link rel="stylesheet" href="./css/index-helper.css">
+    <link rel="stylesheet" href="./css/index-footer.css">
+</head>
+<style>
+    .wupin{
+        width: 1238px;
+        height: 90px;
+        line-height: 90px;
+        background-color: rgb(209, 200, 200);
+        margin-bottom: 5px;
+    }
+    .wupin div{
+        float: left;
+    }
+    .wupin img{
+        width: 90px;
+        height: 90px;
+        float: left;
+        margin-left: 55px;
+    }
+    .wupin .wutitle{
+        float: left;
+        margin-left: 50px;
+        width: 280px;
+        height: 90px;
+        overflow: hidden;
+        font-size: 12px;
+    }
+    .wupin .wuprice{
+        color: crimson;
+        float: left;
+        margin-left: 55px;
+    }
+    .wupin .sum{
+        margin-left: 60px;
+    }
+    .wupin .sum input{
+        width: 50px;
+        text-align: center;
+    }
+    .wupin button{
+        width: 20px;
+    }
+    .wupin .btn{
+        width: 60px;
+        float: right;
+        margin-right: 175px;
+        margin-top: 33px;
+    }
+    .wupin .priceall{
+        color: crimson;
+        margin-left: 70px;
+    }
+</style>
+<body>
+    <div class="header">
+        <div class="container">
+            <img src="https://sundan.com/themes/shundian/images/cart_logo.png">
+            <div class="header-title" id="J_miniHeaderTitle">
+                <h2 style="font-size: 30px;">我的购物车</h2>
+            </div>
+            <div class="textjieshao">
+                商品从门店或者发货，我们将尽快发货。门店自提订单，24小时内将提货码发送至您的手机，请您留意手机短信。由于市场变化及各种合理商业努力都难以控制的因素的影响，商城无法保证用户提交的订单希望购买的商品都有货；如用户拟购买的商品缺货，用户和商家都可取消订单。
+            </div>
+            <div class="cart-step">
+                <div class="cart-step-1 cart-blue">我的购物车</div>
+                <div class="arrowblue fl_left"></div>
+                <div class="cart-step-2 cart-black">填写核对订单</div>
+                <div class="arrowblack fl_left"></div>
+                <div class="cart-step-3 cart-black">成功提交订单</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="car" class="car">
+
+        <div class="head_row hid">
+            <div class="check left" style="display: none;"><i></i></div>
+            <div class="img left" style="padding-left: 70px;">商品图</div>
+            <div class="name left">商品名称</div>
+            <div class="price left">单价</div>
+            <div class="number left">数量</div>
+            <div class="subtotal left">小计</div>
+            <div class="ctrl left">操作</div>
+        </div>
+        <div class="wupin"></div>
+        <div id="sum_area">
+            <div id="pay">去结算</div>
+            <div id="pay_amout">合计：<span id="price_num">0</span>元</div>
+        </div>
+    </div>
+    
+    @@include("./template/index-helper.html")
+    @@include("./template/index-footer.html")
+</body>
+<script src="../static/javascripts/utils.js"></script>
+<script src="./javascripts/shopcart.js"></script>
+</html>

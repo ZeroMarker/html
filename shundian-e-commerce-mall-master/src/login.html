@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index-top.css">
+    <link rel="stylesheet" href="./css/index-header.css">
+    <link rel="stylesheet" href="./css/index-nav.css">
+    <link rel="stylesheet" href="./css/enroll.css">
+    <link rel="stylesheet" href="./css/index-helper.css">
+    <link rel="stylesheet" href="./css/index-footer.css">
+</head>
+<style>
+    .alert {
+        width: 30%;
+        position: absolute;
+        z-index: 999;
+        left: 50%;
+        margin-left: -15%;
+        text-align: center;
+        display: none;
+        height: 70px;
+        border-radius: 10px;
+        background-color: rgb(198, 238, 233);
+
+    }
+
+    .alert-success,
+    .alert-danger {
+        display: block;
+    }
+</style>
+
+<body>
+    @@include("./template/index-top.html")
+    @@include("./template/index-header.html")
+    @@include("./template/index-nav.html")
+
+    <div class="enroll">
+        <div class="alert" id="login-alert"></div>
+        <div class="signin-page-wrap clearfix">
+            <div class="signupin-content signin" style="margin-top:-40px;">
+                <p>用户登录</p>
+                <form action="/passport-post_login.html" method="post">
+                    <ul style="width:300px; margin:auto;">
+                        <li class="form-item">
+                            <span class="form-act margin_left" style="position:relative;"><i class="member_loginname"
+                                    style="width:39px; height:40px; border:none; position:absolute; left:1px; top:1px;"></i><input
+                                    class="x-input action-account-check" style=" padding-left:45px;" type="text"
+                                    class="action-account-check" name="uname" id="username" value=""
+                                    placeholder="用户名/邮箱地址/手机号" vtype="required" data-caution="请填写登录帐号"
+                                    autofocus="autofocus" /></span>
+                        </li>
+                        <input type="hidden" name="sundan" value="mini_passport=0" />
+
+                        <input type="hidden" name="logintype" value="" />
+
+                        <li class="form-item"><span class="form-act margin_left" style="position:relative;"><i
+                                    class="member_loginpassword"
+                                    style="width:39px; height:40px; border:none; position:absolute; left:1px; top:1px;"></i><input
+                                    class="x-input memberpassword" style=" padding-left:45px;" type="password"
+                                    class="memberpassword" name="password" id="password" placeholder="填写密码"
+                                    vtype="required" data-caution="请填写密码" oncontextmenu="return false;"
+                                    onpaste="return false;" /></span></li>
+                        <li class="form-item action-verifycode " style="margin-bottom:10px;">
+
+                            <span class="form-act margin_left" style="position:relative;">
+                                <input class="x-input verify-input verify-input-noleft" type="text" name="verifycode"
+                                    class="verify-input verify-input-noleft" placeholder="填写验证码" data-caution="请正确填写验证码"
+                                    style="width:110px; text-align:left;" id="dom_el_488da73" maxlength="4"
+                                    autocomplete="off" vtype="required&&alphaint" /> <img
+                                    src="https://sundan.com/index-gen_vcode-b2c-4.html" alt="验证码" title="点击更换验证码"
+                                    style="width: 63px;" class="verify-code auto-change-verify-handle"> <a
+                                    href="https://sundan.com/index-gen_vcode-b2c-4.html"
+                                    class="verify-code auto-change-verify-handle">看不清?换一个</a> </span>
+                        </li>
+                        <li class="form-item-normal" style="margin-bottom:0;" id="login_info">
+                            <a style="color: #313131;float: left;" href="/passport-lost.html">忘记登录密码？</a>
+                            <a style="color: #313131;float: left;" href="./enroll.html" style="float:left;"
+                                dialog=off>免费注册</a>
+
+                            <a class="logintypechangemobile" style="color: #313131;float: right;" href="javascript:;"
+                                style="float:right;padding-right: 30px;">验证码登录</a>
+                        </li>
+                        <li class="form-item-normal" style="margin-bottom:10px;">
+                            <span class="form-act margin_left">
+                                <button type="button" id="login_btn" class="btn shundian-btn"
+                                    rel="_request"><a href="./index.html"><span><span>登　录</span></span></a></button>
+                            </span>
+                        </li>
+                        <li class="form-item-normal" style="margin-bottom: 60px;">
+                            <span class="descrip"
+                                style="float: left;font-size: 12px;line-height: 20px;">门店会员首次登陆，请</span><a
+                                href="./enroll.html" class="btn btn-import btn-huge"
+                                style="float: left;margin-left: 10px;" dialog=off><span
+                                    style="background: none;color: #00bad6;padding: 0;line-height: 20px;">点击此处</span></a>
+                        </li>
+                        <li class="form-item" style="margin-bottom:10px;overflow: hidden;" id="login-other">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    @@include("./template/index-helper.html")
+    @@include("./template/index-footer.html")
+</body>
+<script src="../static/javascripts/utils.js"></script>
+<script src="./javascripts/login.js"></script>
+</html>

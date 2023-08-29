@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hy-top {
+  height: 40px;
+  width: 100%;
+  background: #f0f0f0;
+  font-size: 14px;
+  color: #666;
+}
+
+.hy-top a {
+  text-decoration: none;
+  color: #666;
+}
+
+.hy-top .hy-top-wrap {
+  width: 1226px;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+}
+
+.hy-top .hy-left {
+  width: 500px;
+  float: left;
+  text-align: left;
+}
+
+.hy-top .hy-right {
+  width: 600px;
+  float: right;
+  text-align: right;
+  list-style: none;
+}
+
+.hy-split {
+  width: 5px;
+  height: 40px;
+  background: url(split.png);
+  background-position: bottom;
+  margin: 0 2px;
+}
+
+.navs .lists span a:hover {
+  background-color: #00bbd7;
+}
+
+.hy-top .hy-right-content {
+  position: relative;
+  float: right;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+
+.hy-top .hy-item-list {
+  display: none;
+  width: 261px;
+  position: absolute;
+  background: #fff;
+  text-align: center;
+  z-index: 20;
+  border: 1px solid #f0f0f0;
+  border-top: 0px;
+  top: 40px;
+  left: -1px;
+  min-height: 70px;
+}
+
+.hy-top .hy-item {
+  width: 87px;
+  height: 35px;
+  float: left;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hy-top .hy-item a:hover {
+  color: #00bbd7;
+}
+
+.hy-top .hy-list-down {
+  width: 12px;
+  height: 12px;
+  background-image: url(hy-down.png);
+  background-size: 100% 100%;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+.hy-top .hy-list-up {
+  background-image: url(hy-up.png);
+}
+
+.hy-top .hy-right-content .hy-item-t {
+  padding: 0px 5px;
+  cursor: pointer;
+}
+
+.hy-top .hy-right-content .hy-act {
+  background-color: #fff;
+}
+
+.hy-top .hy-tel {
+  color: #f97703;
+  font-size: 15px;
+  font-weight: bolder;
+}

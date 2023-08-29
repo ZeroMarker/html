@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index-top.css">
+    <link rel="stylesheet" href="./css/index-header.css">
+    <link rel="stylesheet" href="./css/index-nav.css">
+    <link rel="stylesheet" href="./css/enroll.css">
+    <link rel="stylesheet" href="./css/index-helper.css">
+    <link rel="stylesheet" href="./css/index-footer.css">
+</head>
+<style>
+    .error {
+        color: red;
+        font-size: 10px;
+    }
+
+    .margin_left span {
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .alert {
+        width: 30%;
+        height: 70px;
+        border-radius: 10px;
+        position: absolute;
+        z-index: 999;
+        left: 50%;
+        margin-left: -15%;
+        text-align: center;
+        display: none;
+        background-color: rgb(198, 238, 233);
+
+    }
+
+    .alert-success,
+    .alert-danger {
+        display: block;
+    }
+</style>
+
+<body>
+    @@include("./template/index-top.html")
+    @@include("./template/index-header.html")
+    @@include("./template/index-nav.html")
+    
+    <div class="enroll">
+        <div class="alert" id="enroll-alert"></div>
+        <div class="signup-article">
+            <div class="signupin-content">
+                <p>用户注册</p>
+                <form action="#" method="post">
+                    <input name="forward" type="hidden" value="">
+                    <input name="mini" type="hidden" value="">
+                    <ul style="width:300px; margin:auto;">
+                        <li class="form-item" style="position:relative">
+
+                            <i class="member_loginname"
+                                style="width:39px; height:40px; border:none; position:absolute; left:1px; top:1px; z-index:2;"></i><span
+                                class="form-act margin_left"><input class="x-input action-account-check" autocomplete="off"
+                                    style=" padding-left:45px;" type="text" name="pam_account[login_name]"
+                                    id="username" class="action-account-check" placeholder="请输入11位手机号"
+                                    vtype="required" data-caution="请输入11位手机号" /><span
+                                    class="validation-messagebox"></span></span>
+                        </li>
+                        <li class="form-item" style="position:relative">
+
+                            <i class="member_loginpassword"
+                                style="width:39px; height:40px; border:none; position:absolute; left:1px; top:1px; z-index:2"></i><span
+                                class="form-act margin_left"><input class="x-input auto-password-check-handle"
+                                    style=" padding-left:45px;" type="password" name="pam_account[login_password]"
+                                    maxlength="20" placeholder="请设置登录密码，6-20个字符，须含数字和大小写字母" id="password"
+                                    vtype="sdpassword&&required" data-caution="请填写密码，6-20个字符，必须包含数字和大小写字母"
+                                    oncontextmenu="return false;" onpaste="return false;" />
+                        </li>
+                        <li class="form-item" style="position:relative">
+
+                            <i class="member_loginpassword"
+                                style="width:39px; height:40px; border:none; position:absolute; left:1px; top:1px; z-index:2"></i><span
+                                class="form-act margin_left"><input class="x-input " style=" padding-left:45px;"
+                                    type="password" name="pam_account[password]" id="rpassword" class=""
+                                    maxlength="20" placeholder="请再次确认登录密码" vtype="equal:pam_account[login_password]"
+                                    oncontextmenu="return false;"
+                                    onpaste="return false;" /><span class="validation-messagebox"></span></span>
+                        </li>
+
+                        <li class="form-item-normal" style="margin-bottom: 5px;" id="login_info">
+                            <span class="form-act margin_left">
+                                <input type="checkbox" name="license" id="" class="x-check" vtype="onerequired"
+                                    data-caution="请选择同意" checked="checked" style="position: absolute;top: -2px;">
+                                <label for="" class="form-sub-label"
+                                    style="color:#313131;margin-right: 0;margin-left: 20px;font-size: 12px;"> 我已阅读并同意 <a
+                                        href="#" class="lnklike" style="color:#00bad6;padding-right: 0;font-size: 12px;"
+                                        target="_blank">会员注册协议</a> 和 <a href="#" class="lnklike"
+                                        style="color:#00bad6;font-size: 12px;" target="_blank">隐私保护政策</a></label>
+                                <span class="validation-messagebox"></span>
+                            </span>
+                        </li>
+                        <li class="form-item-normal">
+                            <span class="form-act  margin_left">
+                                <button type="button" id="enroll_btn" class="btn shundian-btn" style="border-radius:5px"
+                                    rel="_request"><span><span>注　册</span></span></button> </span>
+                        </li>
+                        <li class="form-item-normal" style="margin-bottom: 0;">
+                            <span class="descrip" style="float: left;font-size: 12px;line-height: 20px;">已有顺电帐号</span><a
+                                href="./login.html" class="btn btn-import btn-huge"
+                                style="float: left;margin-left: 10px;" dialog=off><span
+                                    style="background: none;color: #00bad6;padding: 0;line-height: 20px;">直接登录</span></a>
+                        </li>
+                        <li class="form-item" style="margin-bottom:10px;overflow: hidden;" id="login-other">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    @@include("./template/index-helper.html")
+    @@include("./template/index-footer.html")
+</body>
+<script src="../static/javascripts/utils.js"></script>
+<script src="./javascripts/enroll.js"></script>
+<script>
+    var inputs = document.querySelectorAll("#register input");
+    var password = document.getElementById("password");
+    var rpassword = document.getElementById("rpassword");
+    function bindEvent() {
+
+        inputs.forEach(function (ele) {
+            on(ele, "focus", showTip);
+            on(ele, "blur", hideTip)
+        });
+        on(password, "blur", validatepassword)
+        on(rpassword, "blur", validatepassword);
+        // on(psw, "input", pswStrength);
+        on(username, "blur", validateusername);
+
+    }
+
+    function showTip(e) {
+        this.validate = false;
+        var tip = this.nextElementSibling
+        tip.style.display = "block";
+        tip.innerHTML = tip.getAttribute("data-tip");
+        tip.classList.remove("error", "warning");
+    }
+    function hideTip(e) {
+        var tip = this.nextElementSibling
+        tip.style.display = "none";
+    }
+    function validatepassword() {
+        var password_value = password.value;
+        var rpassword_value = rpassword.value;
+        if (password_value !== rpassword_value) {
+            return tipError("两次密码不一样");
+        }
+        password.validate = true;
+    }
+
+    function tipError(ele, usermsg, type) {
+        type = type || "error"
+        var tip = ele.nextElementSibling;
+        tip.innerHTML = usermsg;
+        tip.style.display = "block";
+        tip.classList.add(type);
+    }
+
+    function validateusername() {
+        var username_value = username.value;
+        var username_reg = /0?(13|14|15|17|18|19)[0-9]{9}/
+        if (!username_reg.test(username_value)) {
+            tipError(username, "请填写正确的手机号码")
+        }
+    }
+    function tipError(ele, usermsg) {
+        var tip = ele.nextElementSibling;
+        tip.innerHTML = usermsg;
+        tip.style.display = "block";
+        tip.classList.add("error");
+    }
+
+    bindEvent();
+</script>
+
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index-top.css">
+    <link rel="stylesheet" href="./css/index-header.css">
+    <link rel="stylesheet" href="./css/index-nav.css">
+    <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="./css/detailimg.css">
+    <link rel="stylesheet" href="./css/index-helper.css">
+    <link rel="stylesheet" href="./css/index-footer.css">
+</head>
+<style>
+    .category-content {
+        display: none;
+    }
+
+    .ALL {
+        height: 600px;
+    }
+
+    .goods-detail {
+        width: 1000px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .goods-detail .img-box {
+        width: 350px;
+        height: 350px;
+        padding-bottom: 50px;
+    }
+
+    .goods-detail .img-box img {
+        width: 100%;
+    }
+
+    .goods-detail .title {
+        width: 350px;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .lazyimg {
+        margin: 0 auto;
+        padding-top: 80px;
+        width: 1000px;
+    }
+
+    .focus {
+        width: 238px;
+        height: 238px;
+        border: 1px solid #aaa;
+        background: 50% top no-repeat #fede4f;
+        opacity: .5;
+        cursor: move;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9;
+    }
+
+    .big-img {
+        width: 540px;
+        height: 540px;
+        position: absolute;
+        left: 350px;
+        top: 0;
+        overflow: hidden;
+    }
+
+    .big-img img {
+        width: 800px;
+        height: 800px;
+        position: absolute;
+    }
+
+    .Box {
+        height: 600px;
+        margin-top: 50px;
+    }
+
+    .rigbox {
+        width: 500px;
+        height: 600px;
+    }
+
+    .title {
+        margin-top: -50px;
+        width: 420px;
+        height: 88px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .img1{
+        width: 60px;
+        height: 60px;
+    }
+    .img1 img{
+        width: 60px;
+        height: 60px;
+    }
+   
+</style>
+
+<body>
+    @@include("./template/index-top.html")
+    @@include("./template/index-header.html")
+    @@include("./template/index-nav.html")
+    <div class="Box">
+        <div class="goods-detail">
+            <div class="img-box">
+                <img src="" alt="">
+                <div class="focus"></div>
+            </div>
+            <div class="big-img">
+                <img src="" alt="">
+            </div>
+            <div class="list">
+                <span class="img1" class="active">
+                    <img src="https://sundan.com/public/images/d7/8f/fe/869cdd7fd1dd5340fcdc92ccfa52205489ec4792.jpg?1630401396#h" alt="">
+                </span>
+                <span class="img1">
+                    <img src="https://sundan.com/public/images/4a/8d/81/503c497ef43b0160eb1341ea1285f496c89d1915.jpg?1627633769#h" alt="">
+                </span>
+                <span class="img1">
+                    <img src="https://sundan.com/public/images/48/a9/e4/c071534eec6f6777a7af2a9c327f3c0bc420509a.jpg?1627617172#h" alt="">
+                </span>
+                <span class="img1">
+                    <img src="https://sundan.com/public/images/60/36/ec/69705972cdd9400ba7ab63d8b620793e6970b246.jpg?1627617172#h" alt="">
+                </span>
+                <span class="img1">
+                    <img src="https://sundan.com/public/images/ec/a9/2b/08d11f22e39055cf9d3aba5e1eac8f8b197d47e6.jpg?1627617172#h" alt="">
+                </span>
+                <span class="img1">
+                    <img src="https://sundan.com/public/images/e2/04/61/890d1109567deda72aec42ee87935d1cf77bb147.jpg?1627617172#h" alt="">
+                </span>
+            </div>
+            <div class="img-footer">
+                <div class="shangpinbianhao">
+                    商品编号：157472</div>
+                <div class="share bdsharebuttonbox" id="share_recommend" data-tag="share_1">
+                    <span>分享到</span>
+                    <a data-cmd="sqq" title="分享到QQ好友" class="jiathis"
+                        style="background:url( https://sundan.com/themes/shundian/images/share-qq.png) center no-repeat; width: 21px; height: 17px;background-size:18px;margin: 2px 6px"></a>
+                    <a data-cmd="weixin" title="分享到微信" class="jiathis"
+                        style="background:url( https://sundan.com/themes/shundian/images/share_weixin.png) center no-repeat; width: 21px; height: 17px;background-size:18px;margin: 2px 6px"></a>
+                    <a data-cmd="tsina" title="分享到新浪微博" class="jiathis"
+                        style="background:url(https://sundan.com/themes/shundian/images/share_xinlang.png) center no-repeat; width: 21px; height: 17px;background-size:18px;margin: 2px 6px"></a>
+
+                </div>
+                <a class="shhover">
+                    <div class="share_sao">
+                        <img src="https://sundan.com/public/images/3f/77/29/acbccce3de561452f2bf176e8d82213d347b705d.png?1627614488#h"
+                            alt="商品二维码" width="148" height="148">
+
+                    </div>
+                </a>
+
+                <div class="duibishoucang" style="background-position: -68px;">
+                    <a>
+                        <div class="share_duibi hide" info="对比"></div>
+                    </a>
+                    <a href="/passport-login.html">
+                        <div class="share_favourite">收藏</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="rigbox">
+            <div id="product_information" class="product-information">
+                <div class="product-concerns">
+                    <ul>
+                        <li class="item">
+                            <div class="product-titles">
+                                <div class="title"></div>
+                                <p> 鸿鹄SuperMiniLED超薄全面屏<br />
+                                    20单元帝瓦雷影院声场<br />
+                                    2400万AI慧眼，多方畅联通话<br />
+                                    4+128GB，鸿蒙HarmonyOS 2终端<br />
+                                    轻松全屋智控，畅享智慧生活<br /></p>
+                            </div>
+                        </li>
+
+                        <li class="item">
+                            <div class="detail bak_prcie" style="padding-bottom:0">
+                                <b class="price">
+                                    <ins class="action-price"></ins>
+                                </b>
+                                <div style="width:100%; overflow:hidden; height:1px;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product-buy">
+                    <div class="product-action">
+                        <ul>
+
+                            <li class="product-buy-quantity" style="margin-top:16px;height: 32px;">
+                                <label class="item-label num_cart_pr" for="for_quantity_input">数量</label>
+                                <span class="item-content" style="width: 200px;">
+                                    <span class="p-quantity"><a
+                                            style="display:block;text-align:center;float:left;width:30px;height: 36px;line-height: 36px;"
+                                            href="javascript:void(0);" class="btn-decrease">-</a><input
+                                            style="float:left;width: 39px;line-height: 39px;" type="text"
+                                            name="goods[num]" id="for_quantity_input" class="action-quantity-input"
+                                            value="1" min="1" max=""><a
+                                            style="display:block;text-align:center;float:left;width:30px;height: 36px;line-height: 36px;"
+                                            href="javascript:void(0);" class="btn-increase">+</a></span>
+                                    <span class="p-store"></span>
+                                    <input type="hidden" name="stock" value="">
+                                </span><span class="item_store hide">有货&nbsp;&nbsp;支持<b
+                                        style="color: #00b9d8;">货到付款</b></span>
+                            </li>
+                            <br />
+                            <li class="item" style="margin-bottom: 8px;font-size: 12px;margin-top: -20px">
+                                <img style="width: 20px;margin-bottom: -5px;"
+                                    src="https://sundan.com/themes/shundian/images/iconp.png">&nbsp;&nbsp;顺丰、德邦、顺电配送
+                                &nbsp;&nbsp;&nbsp;<img style="width: 20px;margin-bottom: -5px;"
+                                    src="https://sundan.com/themes/shundian/images/iconm.png">&nbsp;&nbsp;订单满200元包邮
+                            </li>
+                            <li>
+                                <div class="p-textstore">
+                                    鸿鹄SuperMiniLED超薄全面屏<br />
+                                    20单元帝瓦雷影院声场<br />
+                                    2400万AI慧眼，多方畅联通话<br />
+                                    4+128GB，鸿蒙HarmonyOS 2终端<br />
+                                    轻松全屋智控，畅享智慧生活<br />
+                                </div>
+                            </li>
+                            <ul id="list1">
+                                <li id="summary-stock">
+                                    <div class="dt" style="text-align:left; float:none; height:15px;">配送至
+                                    </div>
+                                    <div class="dd" style="margin-left:57px; margin-top:-20px; width:195px;">
+                                        <div id="store-selector"
+                                            style="border:1px solid #e1e1e1; height:30px; width:188px; text-align:center;">
+                                            <div class="text">
+                                                <div></div><b></b>
+                                            </div>
+                                            <div onclick="jQuery('#store-selector').removeClass('hover')" class="close">
+                                            </div>
+                                        </div>
+
+                                        <div id="store-prompt"><strong></strong></div>
+
+                                    </div>
+                                    <span style="margin-top: -20px;float: left; color:#666666;"><span class="item_store"
+                                            style="display:none;color: #666666;">无货</span>&nbsp;&nbsp;</span>
+                                </li>
+                            </ul>
+                            <li class="product-buy-action xiangqing_btn">
+                                <button type="button" class="btn btn-import btn-huge action-buynow"
+                                    rel="_request"><span><span>立即购买</span></span></button>
+                                <button type="button" class="btn btn-major btn-huge action-addtocart"
+                                    rel="_request"><a href="./shopcart.html"><span><span>加入购物车</span></span></a></button> <button type="button"
+                                    class="btn btn-caution btn-huge action-notify hide"><span><span>到货通知</span></span></button>
+                                <a onclick="echat();" target="_blank"><span class="zaixiankefu"
+                                        style="display:inline-block;text-align: center;line-height:40px;">在线客服</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @@include("./template/detailimg.html")
+    @@include("./template/index-helper.html")
+    @@include("./template/index-footer.html")
+</body>
+
+</html>
+<script src="../static/javascripts/utils.js"></script>
+<script src="../static/javascripts/axios.js"></script>
+<script src="../static/javascripts/magnifier.js"></script>
+<script src="./javascripts/detail.js"></script>
+<script src="./javascripts/tiaozhuan.js"></script>
+<script src="./javascripts/detailimg.js"></script>
+<!-- <script src="./javascripts/shopcart.js"></script> -->

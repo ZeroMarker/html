@@ -1,0 +1,30 @@
+* {
+  text-decoration: none;
+}
+
+.rightmenu {
+  width: 80px;
+  height: 546px;
+  position: fixed;
+  border: 1px solid #797575;
+  z-index: 1111;
+  top: 28%;
+  right: 60px;
+  background-color: seashell;
+}
+
+.rightmenu a {
+  display: block;
+  width: 80px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  background: url(https://sundan.com/themes/shundian/images/new-nav-line.png) no-repeat bottom center;
+  font-size: 15px;
+  color: black;
+}
+
+.rightmenu a:hover {
+  background-color: #07a6d6;
+  color: white;
+}

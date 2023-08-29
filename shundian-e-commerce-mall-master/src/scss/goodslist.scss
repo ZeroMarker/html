@@ -1,0 +1,117 @@
+ body{
+    background-color: rgb(233, 229, 225);
+ }
+ .category-content{
+    display: none;
+}
+  .goods-list {
+      width: 1180px;
+      margin: auto;
+      
+  }
+  .goods-list::after {
+      content: "";
+      display: block;
+      clear: both;
+  }
+
+  .goods-list .goods {
+      width: 280px;
+      float: left;
+      margin: 0 20px 20px 0;
+      height: 400px;
+      cursor: pointer;
+      background-color: white;
+  }
+
+  .goods-list .goods:nth-of-type(4n) {
+      margin: 0 0 20px 0;
+  }
+
+  .goods .title {
+      margin-bottom: 1px;
+      position: relative;
+      height: 30px;
+      line-height: 30px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 5px;
+      font-size: 13px;
+  }
+
+  .goods-list img {
+      width: 200px;
+      height: 200px;
+      padding: 10px 40px;
+  }
+
+.goods-bq {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+}
+.goods-bq .list_l{
+    width: 45%;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    color: red;
+    margin-left: 5px;
+}
+.goods-bq .red_list_l{
+    margin-top: 20px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 10px;
+
+}
+.goods-bq .list_r{
+    width: 45%;
+    color: gray;
+    height: 60px;
+    line-height: 60px;
+    float: right;
+    text-align: center;
+    font-size: 10px;
+    margin-right: 5px;
+
+}
+.goods-bq .list_r .gray_list_r{
+    margin-top: 20px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+.goods-price {
+    margin: 10px;
+    height: 40px;
+    line-height: 40px;
+    width: 180px;
+    position: relative;
+    max-height: 36px;
+    _height: 36px;
+    overflow: hidden;
+}
+
+.goods-price .price, .goods-price .fl_left div {
+    float: left;
+}
+.goods-price .fl_left div {
+    color: #fc3637;
+    font-size: 14px;
+}
+.goods-price .fl_left div {
+    text-decoration: none;
+    font-weight: bold;
+}

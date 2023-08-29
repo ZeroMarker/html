@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index-top.css">
+    <link rel="stylesheet" href="./css/index-header.css">
+    <link rel="stylesheet" href="./css/index-nav.css">
+    <link rel="stylesheet" href="./css/goodslist.css">
+    <link rel="stylesheet" href="./css/index-helper.css">
+    <link rel="stylesheet" href="./css/index-footer.css">
+    <link rel="stylesheet" href="./css/list-top.css">
+    <link rel="stylesheet" href="./css/goodslist-top.css">
+    <style>
+        .pagination {
+            text-align: center;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .pagination span,
+        .pagination strong,
+        .pagination em {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            background-color: skyblue;
+            border: 2px solid snow;
+            margin: 0 20px 0 0;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        .pagination em {
+            width: 100px;
+            border-radius: 5px;
+            background-color: #ddd;
+        }
+
+        .pagination b {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            line-height: 30px;
+            margin: 0 20px 0 0;
+
+        }
+
+        .pagination strong {
+            width: 80px;
+            border-radius: 5px;
+        }
+
+        .pagination span.active {
+            background-color: #000;
+            color: #fff;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    @@include("./template/index-top.html")
+    @@include("./template/index-header.html")
+    @@include("./template/index-nav.html")
+    @@include("./template/list-top.html")
+    @@include("./template/goodslist-top.html")
+
+    <div class="goods-list"></div>
+
+    <div class="pagination"></div>
+
+    @@include("./template/index-helper.html")
+    @@include("./template/index-footer.html")
+
+    <script src="../static/javascripts/utils.js"></script>
+    <script src="../static/javascripts/jQuery.js"></script>
+    <!-- <script src="../static/javascripts/pagination.js"></script> -->
+    <!-- <script src="./javascripts/goodslist-top.js"></script> -->
+    <script src="../static/data/list.js"></script>
+    <script src="./javascripts/fenyeqi.js"></script>
+</body>
+
+</html>
